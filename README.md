@@ -17,6 +17,12 @@ Downloading 6...
 ...
 ```
 
+Note that you may end up with some 404s, this just means there was an entry in GHDB that was removed for whatever reason. You can clean these up as you continue to run your fetch script:
+
+```
+grep -R page-404 .| cut -d : -f1| xargs rm -fv && rm -fv ./*.html && ./fetch.sh
+```
+
 ### Import records into the database
 
 ```
