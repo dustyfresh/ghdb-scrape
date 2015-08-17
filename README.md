@@ -2,6 +2,8 @@ ghdb-scrape
 -----------------
 Scrape the [Google Hacking Database](https://www.exploit-db.com/google-hacking-database/) for useful Google Dorks from Exploit-DB.com and insert the results into MongoDB. Docs and other stuff coming soon ;)
 
+> " A Google dork query, sometimes just referred to as a dork, is a search string that uses advanced search operators to find information that is not readily available on a website. Google dorking, also known as Google hacking, can return information that is difficult to locate through simple search queries. That description includes information that is not intended for public viewing but that has not been adequately protected. As a passive attack method, Google dorking can return usernames and passwords, email lists, sensitive documents, personally identifiable financial information (PIFI) and website vulnerabilities. That information can be used for any number of illegal activities, including cyberterrorism, industrial espionage, identity theft and cyberstalking." -- [http://whatis.techtarget.com/definition/Google-dork-query](http://whatis.techtarget.com/definition/Google-dork-query)
+
 ### Scrape dorks
 
 ```
